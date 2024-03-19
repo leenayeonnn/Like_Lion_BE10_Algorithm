@@ -19,7 +19,7 @@ public class Triangle2 {
     public static void printTriangle(int num) {
         for (int i = 1; i <= num; i++) {
             printLefTriangle(num, i);
-            printRightTriangle(num, i);
+            printRightTriangle(i);
             System.out.println();
         }
     }
@@ -34,7 +34,7 @@ public class Triangle2 {
         }
     }
 
-    public static void printRightTriangle(int num, int i) {
+    public static void printRightTriangle(int i) {
         for (int j = 1; j < i; j++) {
             System.out.print("*");
         }
