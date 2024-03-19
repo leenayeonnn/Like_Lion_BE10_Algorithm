@@ -12,7 +12,7 @@ public class DecimalToBinary {
             binary.append(remainder);
         }
 
-        System.out.println(binary.reverse().toString());
+        System.out.println(binary.reverse());
 
     }
 }
