@@ -5,6 +5,14 @@ public class Dog {
     private int age;
     private String color;
 
+    Dog() {}
+
+    Dog(String bread, int age, String color) {
+        this.breed = bread;
+        this.age = age;
+        this.color = color;
+    }
+
     public void setBreed(String breed) {
         this.breed = breed;
     }
