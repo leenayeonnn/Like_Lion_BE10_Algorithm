@@ -13,7 +13,6 @@ public class CalcSumAndAvgWithTwoDim {
 
     private static void calcSumAndAvg(int[][] scores) {
         int sum;
-        double avg;
         for (int i = 0; i < scores.length; i++) {
             sum = 0;
             for (int j = 0; j < scores[i].length; j++) {
