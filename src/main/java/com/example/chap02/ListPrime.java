@@ -1,7 +1,5 @@
 package com.example.chap02;
 
-import java.util.Scanner;
-
 public class ListPrime {
     public static void main(String[] args) {
         findPrime();
