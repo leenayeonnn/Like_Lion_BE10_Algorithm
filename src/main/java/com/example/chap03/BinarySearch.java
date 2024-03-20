@@ -2,7 +2,7 @@ package com.example.chap03;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int arr[] = {3, 6, 17, 29, 40, 55, 60, 78};
+        int[] arr = {3, 6, 17, 29, 40, 55, 60, 78};
 
 //        int idx = search(arr, 0, 0, arr.length - 1);
         int idx = search(arr, 60);

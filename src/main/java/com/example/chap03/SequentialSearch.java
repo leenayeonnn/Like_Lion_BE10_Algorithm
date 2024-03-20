@@ -2,7 +2,7 @@ package com.example.chap03;
 
 public class SequentialSearch {
     public static void main(String[] args) {
-        int arr[] = {3, 29, 39, 10, 285, 2, 9};
+        int[] arr = {3, 29, 39, 10, 285, 2, 9};
 
         int idx = search(arr, 29);
 
