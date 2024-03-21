@@ -61,7 +61,6 @@ public class MyStack {
 
         int choice;
         int num;
-        boolean isEmpty;
 
         roof:
         while (true) {
