@@ -15,7 +15,6 @@ public class Factorial {
                 break;
 
             System.out.println(num + "! = " + Factorial.calc(num));
-            ;
         }
 
         sc.close();
